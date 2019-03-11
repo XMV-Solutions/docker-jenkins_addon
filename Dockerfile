@@ -9,6 +9,7 @@ USER root
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash
 RUN apt-get update && apt-get install nodejs build-essential -y
 RUN npm i -g newman
+RUN npm i -g newman-reporter-html
 
 # Install dotnet 
 RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.asc.gpg
