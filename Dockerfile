@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 
-LABEL maintainer="David Koller (XMV) <david.koller@xmv.de>"
+LABEL maintainer="David Koller (XMV Solutions GmbH) <david.koller@xmv.de>"
 
 # Back to the roots
 USER root
