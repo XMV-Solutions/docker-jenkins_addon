@@ -1,4 +1,4 @@
-FROM jenkins:latest
+FROM jenkins/jenkins:lts
 
 LABEL maintainer="David Koller (XMV) <david.koller@xmv.de>"
 
