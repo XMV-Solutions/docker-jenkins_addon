@@ -40,4 +40,4 @@ EXPOSE ${agent_port}
 # User jeknins
 USER ${user}
 
-ENTRYPOINT ["/bin/tini", "--", "/usr/local/bin/jenkins.sh"]
+ENTRYPOINT ["/sbin/tini", "--", "/usr/local/bin/jenkins.sh"]
